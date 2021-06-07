@@ -1,0 +1,111 @@
+        *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          scroll-behavior: smooth;
+        }
+        
+        div{
+          background-color: #3333;
+          width:100%;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        
+        .wrapper{
+          background-color:#5454;
+          
+        }
+        
+        
+       .input1{
+    width:90%;
+    height:40px;
+    border:2px solid#3273a8;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color:#3273a8;
+    outline:none;
+    text-align: left;
+}
+
+button{
+    width:50%;
+    height:30px;
+    border:2px solid deepskyblue;  
+    background-color:white;
+    margin-bottom:20px;
+}
+
+input{
+    color: #3273a8;
+    font-size:15px;
+    font-weight:bold;
+    outline:none;
+    text-align: left;
+}
+
+::placeholder {
+    color:#3273a8;
+}
+
+
+select{
+    color:gray;
+    font-size:15px;
+    font-weight:bold;   
+    background-color:white; 
+    text-align:left;
+}
+
+button{
+   color:white;
+   background-color:#03cafc; 
+   border:none;
+    font-size:15px;
+    font-weight:bold;
+    border-radius:15px;
+    outline:none;
+}
+
+hr{
+    width:80%;
+    background-color:skyblue;
+    height:2px;
+    border:none;
+    
+}
+
+h2{
+    color:#3273a8;
+    line-height: 100px;
+    text-transform: capitalize;
+    word-spacing: 7px;
+    
+    
+}
+
+img{
+  width:50%;
+}
+
+@media screen and (min-width:500px){
+   
+   .input1{
+    width:50%;
+    height:50px;
+   } 
+   
+  button{
+    width:30%;
+    height:30px; 
+   
+}
+img{
+  width:20%;
+
+}
+}
